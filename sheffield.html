@@ -29,18 +29,17 @@ load = function(url, cb) {
   xhr.send()
 }
 
-bind_popup = function(url) {
-  var id = /\d+(?=\.geojson)/.exec(url)[0]
+bind_popup = function(descriptor) {
   return function(feature, layer) {
-    layer.bindPopup(id)
+    layer.bindPopup(descriptor.name)
   }
 }
 
-add_geojson = function(url) {
+add_geojson = function(url, descriptor) {
   load(url, function(xhr) {
     var g = JSON.parse(xhr.responseText)
     var area = L.geoJSON(g, {
-      onEachFeature: bind_popup(url)
+      onEachFeature: bind_popup(descriptor)
     })
     map.addLayer(area)
     // map.fitBounds(area.getBounds());
@@ -51,7 +50,7 @@ load("children.json", function(xhr) {
   children = JSON.parse(xhr.responseText)
   for(var id in children) {
     if(children[id].type == "MTW") {
-      add_geojson("ward/" + id + ".geojson")
+      add_geojson("ward/" + id + ".geojson", children[id])
     }
   }
 })
