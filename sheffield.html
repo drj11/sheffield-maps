@@ -28,11 +28,18 @@ load = function(url, cb) {
   xhr.open('GET', url)
   xhr.send()
 }
+bind_popup = function(url) {
+  var id = /\d+(?=\.geojson)/.exec(url)[0]
+  return function(feature, layer) {
+    layer.bindPopup(id)
+  }
+}
 add_geojson = function(url) {
   load(url, function(xhr) {
     var g = JSON.parse(xhr.responseText)
-    console.log(g)
-    var area = L.geoJSON(g)
+    var area = L.geoJSON(g, {
+      onEachFeature: bind_popup(url)
+    })
     map.addLayer(area)
     // map.fitBounds(area.getBounds());
   })
