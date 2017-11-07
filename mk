@@ -2,8 +2,6 @@
 
 Key=$(cat .mapit) || exit 99
 
-echo $Key
-
 children () {
   j=$(curl "$1"?api_key="$Key") &&
   printf "%s" "$j" | jq . > children.json
