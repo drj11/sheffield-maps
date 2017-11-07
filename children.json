@@ -1,0 +1,501 @@
+{
+  "148628": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148628,
+    "codes": {
+      "unit_id": "9095",
+      "gss": "E05010884"
+    },
+    "name": "Woodhouse",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148615": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148615,
+    "codes": {
+      "unit_id": "42489",
+      "gss": "E05010883"
+    },
+    "name": "West Ecclesfield",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148634": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148634,
+    "codes": {
+      "unit_id": "9114",
+      "gss": "E05010882"
+    },
+    "name": "Walkley",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148608": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148608,
+    "codes": {
+      "unit_id": "42485",
+      "gss": "E05010881"
+    },
+    "name": "Stocksbridge & Upper Don",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "54761": {
+    "type": "CPC",
+    "country_name": "England",
+    "generation_low": 12,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 54761,
+    "codes": {
+      "unit_id": "9202",
+      "gss": "E04000131",
+      "ons": "00CG003"
+    },
+    "name": "Stocksbridge",
+    "country": "E",
+    "type_name": "Civil parish/community"
+  },
+  "148613": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148613,
+    "codes": {
+      "unit_id": "9206",
+      "gss": "E05010880"
+    },
+    "name": "Stannington",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148630": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148630,
+    "codes": {
+      "unit_id": "9204",
+      "gss": "E05010879"
+    },
+    "name": "Southey",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148633": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148633,
+    "codes": {
+      "unit_id": "9090",
+      "gss": "E05010878"
+    },
+    "name": "Shiregreen & Brightside",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148626": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148626,
+    "codes": {
+      "unit_id": "42490",
+      "gss": "E05010877"
+    },
+    "name": "Richmond",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148623": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148623,
+    "codes": {
+      "unit_id": "9107",
+      "gss": "E05010876"
+    },
+    "name": "Park & Arbourthorne",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148617": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148617,
+    "codes": {
+      "unit_id": "9108",
+      "gss": "E05010875"
+    },
+    "name": "Nether Edge & Sharrow",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148607": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148607,
+    "codes": {
+      "unit_id": "42491",
+      "gss": "E05010874"
+    },
+    "name": "Mosborough",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148624": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148624,
+    "codes": {
+      "unit_id": "9103",
+      "gss": "E05010873"
+    },
+    "name": "Manor Castle",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148629": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148629,
+    "codes": {
+      "unit_id": "9205",
+      "gss": "E05010872"
+    },
+    "name": "Hillsborough",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148621": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148621,
+    "codes": {
+      "unit_id": "9099",
+      "gss": "E05010871"
+    },
+    "name": "Graves Park",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148618": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148618,
+    "codes": {
+      "unit_id": "9104",
+      "gss": "E05010863"
+    },
+    "name": "Crookes & Crosspool",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148620": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148620,
+    "codes": {
+      "unit_id": "42492",
+      "gss": "E05010862"
+    },
+    "name": "City",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148631": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148631,
+    "codes": {
+      "unit_id": "42493",
+      "gss": "E05010861"
+    },
+    "name": "Burngreave",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148619": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148619,
+    "codes": {
+      "unit_id": "42494",
+      "gss": "E05010860"
+    },
+    "name": "Broomhill & Sharrow Vale",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "62340": {
+    "type": "CPC",
+    "country_name": "England",
+    "generation_low": 12,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 62340,
+    "codes": {
+      "unit_id": "9207",
+      "gss": "E04000129",
+      "ons": "00CG001"
+    },
+    "name": "Bradfield",
+    "country": "E",
+    "type_name": "Civil parish/community"
+  },
+  "148625": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148625,
+    "codes": {
+      "unit_id": "42488",
+      "gss": "E05010859"
+    },
+    "name": "Birley",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148627": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148627,
+    "codes": {
+      "unit_id": "9209",
+      "gss": "E05010858"
+    },
+    "name": "Beighton",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148616": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148616,
+    "codes": {
+      "unit_id": "9109",
+      "gss": "E05010857"
+    },
+    "name": "Beauchief & Greenhill",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148612": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148612,
+    "codes": {
+      "unit_id": "9091",
+      "gss": "E05010864"
+    },
+    "name": "Darnall",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148609": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148609,
+    "codes": {
+      "unit_id": "9110",
+      "gss": "E05010865"
+    },
+    "name": "Dore & Totley",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148614": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148614,
+    "codes": {
+      "unit_id": "9223",
+      "gss": "E05010866"
+    },
+    "name": "East Ecclesfield",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148611": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148611,
+    "codes": {
+      "unit_id": "42487",
+      "gss": "E05010867"
+    },
+    "name": "Ecclesall",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "57531": {
+    "type": "CPC",
+    "country_name": "England",
+    "generation_low": 12,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 57531,
+    "codes": {
+      "unit_id": "9224",
+      "gss": "E04000130",
+      "ons": "00CG002"
+    },
+    "name": "Ecclesfield",
+    "country": "E",
+    "type_name": "Civil parish/community"
+  },
+  "148632": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148632,
+    "codes": {
+      "unit_id": "9116",
+      "gss": "E05010868"
+    },
+    "name": "Firth Park",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148610": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148610,
+    "codes": {
+      "unit_id": "42486",
+      "gss": "E05010869"
+    },
+    "name": "Fulwood",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  },
+  "148622": {
+    "type": "MTW",
+    "country_name": "England",
+    "generation_low": 28,
+    "parent_area": 2537,
+    "generation_high": 32,
+    "all_names": {},
+    "id": 148622,
+    "codes": {
+      "unit_id": "9106",
+      "gss": "E05010870"
+    },
+    "name": "Gleadless Valley",
+    "country": "E",
+    "type_name": "Metropolitan district ward"
+  }
+}

@@ -1,0 +1,73 @@
+<xhtml>
+<head>
+<!-- per http://leafletjs.com/examples/quick-start/ -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   crossorigin=""></script>
+</head>
+<body>
+<div style="height:600px" id="mapid"></div>
+<script>
+var map = L.map('mapid').setView([53.4, -1.5], 11);
+
+L.tileLayer(
+'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        subdomains: ['a','b','c']
+        }).addTo( map );
+
+load = function(url, cb) {
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function() {
+    if(xhr.readyState < 4) { return }
+    cb(xhr)
+  }
+  xhr.open('GET', url)
+  xhr.send()
+}
+add_geojson = function(url) {
+  load(url, function(xhr) {
+    var g = JSON.parse(xhr.responseText)
+    console.log(g)
+    var area = L.geoJSON(g)
+    map.addLayer(area)
+    // map.fitBounds(area.getBounds());
+  })
+}
+
+add_geojson("ward/148607.geojson")
+add_geojson("ward/148608.geojson")
+add_geojson("ward/148609.geojson")
+add_geojson("ward/148610.geojson")
+add_geojson("ward/148611.geojson")
+add_geojson("ward/148612.geojson")
+add_geojson("ward/148613.geojson")
+add_geojson("ward/148614.geojson")
+add_geojson("ward/148615.geojson")
+add_geojson("ward/148616.geojson")
+add_geojson("ward/148617.geojson")
+add_geojson("ward/148618.geojson")
+add_geojson("ward/148619.geojson")
+add_geojson("ward/148620.geojson")
+add_geojson("ward/148621.geojson")
+add_geojson("ward/148622.geojson")
+add_geojson("ward/148623.geojson")
+add_geojson("ward/148624.geojson")
+add_geojson("ward/148625.geojson")
+add_geojson("ward/148626.geojson")
+add_geojson("ward/148627.geojson")
+add_geojson("ward/148628.geojson")
+add_geojson("ward/148629.geojson")
+add_geojson("ward/148630.geojson")
+add_geojson("ward/148631.geojson")
+add_geojson("ward/148632.geojson")
+add_geojson("ward/148633.geojson")
+add_geojson("ward/148634.geojson")
+
+
+</script>
+</body>
+</html>
