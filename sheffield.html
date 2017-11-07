@@ -28,12 +28,14 @@ load = function(url, cb) {
   xhr.open('GET', url)
   xhr.send()
 }
+
 bind_popup = function(url) {
   var id = /\d+(?=\.geojson)/.exec(url)[0]
   return function(feature, layer) {
     layer.bindPopup(id)
   }
 }
+
 add_geojson = function(url) {
   load(url, function(xhr) {
     var g = JSON.parse(xhr.responseText)
@@ -45,34 +47,14 @@ add_geojson = function(url) {
   })
 }
 
-add_geojson("ward/148607.geojson")
-add_geojson("ward/148608.geojson")
-add_geojson("ward/148609.geojson")
-add_geojson("ward/148610.geojson")
-add_geojson("ward/148611.geojson")
-add_geojson("ward/148612.geojson")
-add_geojson("ward/148613.geojson")
-add_geojson("ward/148614.geojson")
-add_geojson("ward/148615.geojson")
-add_geojson("ward/148616.geojson")
-add_geojson("ward/148617.geojson")
-add_geojson("ward/148618.geojson")
-add_geojson("ward/148619.geojson")
-add_geojson("ward/148620.geojson")
-add_geojson("ward/148621.geojson")
-add_geojson("ward/148622.geojson")
-add_geojson("ward/148623.geojson")
-add_geojson("ward/148624.geojson")
-add_geojson("ward/148625.geojson")
-add_geojson("ward/148626.geojson")
-add_geojson("ward/148627.geojson")
-add_geojson("ward/148628.geojson")
-add_geojson("ward/148629.geojson")
-add_geojson("ward/148630.geojson")
-add_geojson("ward/148631.geojson")
-add_geojson("ward/148632.geojson")
-add_geojson("ward/148633.geojson")
-add_geojson("ward/148634.geojson")
+load("children.json", function(xhr) {
+  children = JSON.parse(xhr.responseText)
+  for(var id in children) {
+    if(children[id].type == "MTW") {
+      add_geojson("ward/" + id + ".geojson")
+    }
+  }
+})
 
 
 </script>
