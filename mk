@@ -1,15 +1,18 @@
 #!/bin/sh
 
+Key=$(cat .mapit) || exit 99
+
+echo $Key
+
 children () {
-  j=$(curl "$1") &&
+  j=$(curl "$1"?api_key="$Key") &&
   printf "%s" "$j" | jq . > children.json
 }
 
 children https://mapit.mysociety.org/area/2537/children
 
 wards () {
-  j=$(cat children.json |
-      jq '.[] | select(.type | contains("MTW"))' ) &&
+  j=$( jq < children.json '.[] | select(.type | contains("MTW"))' ) &&
   printf "%s" "$j" > wards.json
 }
 
@@ -24,6 +27,9 @@ for id in $(ids)
 do
   (
   cd ward
-  curl -O https://mapit.mysociety.org/area/"$id".geojson
+  jq < "$id".geojson . > /dev/null ||
+    ( sleep 0.4
+      curl -O -H "X-Api-Key: $Key" https://mapit.mysociety.org/area/"$id".geojson
+    )
   )
 done
