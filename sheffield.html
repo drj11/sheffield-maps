@@ -46,12 +46,10 @@ add_geojson = function(url, descriptor) {
   })
 }
 
-load("children.json", function(xhr) {
-  children = JSON.parse(xhr.responseText)
-  for(var id in children) {
-    if(children[id].type == "MTW") {
-      add_geojson("ward/" + id + ".geojson", children[id])
-    }
+load("wards.json", function(xhr) {
+  wards = JSON.parse(xhr.responseText)
+  for(var id in wards) {
+    add_geojson("ward/" + id + ".geojson", wards[id])
   }
 })
 
