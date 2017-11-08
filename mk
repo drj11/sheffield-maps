@@ -10,14 +10,17 @@ children () {
 children https://mapit.mysociety.org/area/2537/children
 
 wards () {
-  j=$( jq < children.json '.[] | select(.type | contains("MTW"))' ) &&
+  j=$(
+    jq < children.json 'with_entries(select(.value |.type | contains("MTW")))'
+    ) &&
+  printf "%s" "$j" | jq . > /dev/null &&
   printf "%s" "$j" > wards.json
 }
 
 wards
 
 ids () {
-  jq < wards.json -r .id
+  jq < wards.json -r '.[] | .id'
 }
 
 mkdir -p ward
