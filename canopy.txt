@@ -1,0 +1,31 @@
+# Tree Canopy (%age)
+# Estimates by Michael Keene, as per https://savesheffieldtrees.org.uk/sheffield-tree-cover-by-ward/
+
+Ecclesall 38.1
+West Ecclesfield 32.7
+Gleadless Valley 28.3
+Graves Park 27.7
+Crookes and Crosspool 25.4
+Shiregreen & Brightside 24.7
+Burngreave 23.7
+Beauchief and Greenhill 22.3
+Dore and Totley 22.1
+Walkley 21.7
+Netheredge and Sharrow 21
+Mosborough 20.7
+Fullwood 20.3
+Birley 17.7
+Broomhill and Sharrow Vale 17.7
+Southey 17.7
+Manor Castle 17.3
+Richmond 16.4
+Darnall 15.8
+Firth Park 15.7
+Stocksbridge and Upper Don 15.7
+Park and Arbourthorne 15.4
+Beighton 15.3
+Stannington 15.3
+East Ecclesfield 14.9
+Woodhouse 14.4
+Hillsborough 11.4
+City 4.37
