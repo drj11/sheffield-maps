@@ -17,7 +17,9 @@ load("canopy.json", function(xhr) {
   plot_wards(Map, function(geojson, descriptor) {
     return {
         onEachFeature: function(feature, layer) {
-          layer.bindPopup(descriptor.name + canopy[descriptor.id])
+          var label =
+            descriptor.name + " " + canopy[descriptor.id] + "%"
+          layer.bindPopup(label)
           },
         style: { fillOpacity:  0.01*canopy[descriptor.id],
                  fillColor: "green",
