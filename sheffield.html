@@ -11,13 +11,13 @@
 <body>
 <div style="height:600px" id="mapid"></div>
 <script>
-var map = L.map('mapid').setView([53.4, -1.5], 11);
+var Map = L.map('mapid').setView([53.4, -1.5], 11);
 
 L.tileLayer(
 '//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         subdomains: ['a','b','c']
-        }).addTo( map );
+        }).addTo( Map );
 
 load = function(url, cb) {
   var xhr = new XMLHttpRequest();
@@ -29,30 +29,32 @@ load = function(url, cb) {
   xhr.send()
 }
 
-bind_popup = function(descriptor) {
-  return function(feature, layer) {
-    layer.bindPopup(descriptor.name)
-  }
-}
-
-add_geojson = function(url, descriptor) {
+add_geojson = function(map, url, descriptor, cb) {
   load(url, function(xhr) {
     var g = JSON.parse(xhr.responseText)
-    var area = L.geoJSON(g, {
-      onEachFeature: bind_popup(descriptor)
-    })
+    var options = cb(g, descriptor)
+    var area = L.geoJSON(g, options)
     map.addLayer(area)
     // map.fitBounds(area.getBounds());
   })
 }
 
-load("wards.json", function(xhr) {
-  wards = JSON.parse(xhr.responseText)
-  for(var id in wards) {
-    add_geojson("ward/" + id + ".geojson", wards[id])
-  }
-})
+plot_wards = function(map, ward_cb) {
+  load("wards.json", function(xhr) {
+    wards = JSON.parse(xhr.responseText)
+    for(var id in wards) {
+      add_geojson(map, "ward/" + id + ".geojson", wards[id], ward_cb)
+    }
+  })
+}
 
+plot_wards(Map, function(geojson, descriptor) {
+  return {
+      onEachFeature: function(feature, layer) {
+        layer.bindPopup(descriptor.name)
+        }
+    }
+})
 
 </script>
 </body>
