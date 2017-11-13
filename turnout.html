@@ -1,0 +1,38 @@
+<xhtml>
+<head>
+<!-- per http://leafletjs.com/examples/quick-start/ -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   crossorigin=""></script>
+</head>
+<body>
+<div style="height:600px" id="mapid"></div>
+<script src="wards.js"></script>
+<script>
+load("2016turnout.json", function(xhr) {
+  var turnout = JSON.parse(xhr.responseText)
+  plot_wards(Map, function(geojson, descriptor) {
+    var gss = descriptor.codes.gss
+    var fraction = turnout[gss].turnout
+    return {
+        onEachFeature: function(feature, layer) {
+          var label =
+            descriptor.name + " " + fraction + "%"
+          layer.bindPopup(label)
+          },
+        style: { fillOpacity:  0.01*fraction,
+                 fillColor: "purple",
+                 color: "black",
+                 weight: 1,
+                 }
+
+      }
+  })
+})
+
+</script>
+</body>
+</html>
