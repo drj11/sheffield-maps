@@ -1,0 +1,170 @@
+{
+  "E05010869": {
+    "name": "Fulwood",
+    "gss": "E05010869",
+    "turnout": 43.0,
+    "poll": 14059
+  },
+  "E05010863": {
+    "name": "Crookes & Crosspool",
+    "gss": "E05010863",
+    "turnout": 47.0,
+    "poll": 13986
+  },
+  "E05010862": {
+    "name": "City",
+    "gss": "E05010862",
+    "turnout": 20.0,
+    "poll": 7283
+  },
+  "E05010866": {
+    "name": "East Ecclesfield",
+    "gss": "E05010866",
+    "turnout": 33.0,
+    "poll": 14303
+  },
+  "E05010872": {
+    "name": "Hillsborough",
+    "gss": "E05010872",
+    "turnout": 38.0,
+    "poll": 14851
+  },
+  "E05010864": {
+    "name": "Darnall",
+    "gss": "E05010864",
+    "turnout": 33.0,
+    "poll": 13106
+  },
+  "E05010882": {
+    "name": "Walkley",
+    "gss": "E05010882",
+    "turnout": 35.0,
+    "poll": 15562
+  },
+  "E05010880": {
+    "name": "Stannington",
+    "gss": "E05010880",
+    "turnout": 39.0,
+    "poll": 14536
+  },
+  "E05010865": {
+    "name": "Dore & Totley",
+    "gss": "E05010865",
+    "turnout": 47.0,
+    "poll": 14697
+  },
+  "E05010870": {
+    "name": "Gleadless Valley",
+    "gss": "E05010870",
+    "turnout": 30.0,
+    "poll": 13822
+  },
+  "E05010871": {
+    "name": "Graves Park",
+    "gss": "E05010871",
+    "turnout": 41.0,
+    "poll": 13340
+  },
+  "E05010861": {
+    "name": "Burngreave",
+    "gss": "E05010861",
+    "turnout": 37.0,
+    "poll": 14085
+  },
+  "E05010874": {
+    "name": "Mosborough",
+    "gss": "E05010874",
+    "turnout": 30.0,
+    "poll": 13598
+  },
+  "E05010867": {
+    "name": "Ecclesall",
+    "gss": "E05010867",
+    "turnout": 49.0,
+    "poll": 15780
+  },
+  "E05010877": {
+    "name": "Richmond",
+    "gss": "E05010877",
+    "turnout": 26.4,
+    "poll": 14673
+  },
+  "E05010881": {
+    "name": "Stocksbridge & Upper Don",
+    "gss": "E05010881",
+    "turnout": 35.0,
+    "poll": 14411
+  },
+  "E05010879": {
+    "name": "Southey",
+    "gss": "E05010879",
+    "turnout": 28.0,
+    "poll": 13880
+  },
+  "E05010858": {
+    "name": "Beighton",
+    "gss": "E05010858",
+    "turnout": 28.0,
+    "poll": 13884
+  },
+  "E05010875": {
+    "name": "Nether Edge & Sharrow",
+    "gss": "E05010875",
+    "turnout": 47.0,
+    "poll": 14561
+  },
+  "E05010873": {
+    "name": "Manor Castle",
+    "gss": "E05010873",
+    "turnout": 23.0,
+    "poll": 13385
+  },
+  "E05010883": {
+    "name": "West Ecclesfield",
+    "gss": "E05010883",
+    "turnout": 34.0,
+    "poll": 14081
+  },
+  "E05010857": {
+    "name": "Beauchief & Greenhill",
+    "gss": "E05010857",
+    "turnout": 39.0,
+    "poll": 14399
+  },
+  "E05010860": {
+    "name": "Broomhill & Sharrow Vale",
+    "gss": "E05010860",
+    "turnout": 32.0,
+    "poll": 15000
+  },
+  "E05010859": {
+    "name": "Birley",
+    "gss": "E05010859",
+    "turnout": 29.0,
+    "poll": 12959
+  },
+  "E05010868": {
+    "name": "Firth Park",
+    "gss": "E05010868",
+    "turnout": 29.0,
+    "poll": 14250
+  },
+  "E05010884": {
+    "name": "Woodhouse",
+    "gss": "E05010884",
+    "turnout": 28.0,
+    "poll": 13504
+  },
+  "E05010878": {
+    "name": "Shiregreen & Brightside",
+    "gss": "E05010878",
+    "turnout": 29.0,
+    "poll": 13961
+  },
+  "E05010876": {
+    "name": "Park & Arbourthorne",
+    "gss": "E05010876",
+    "turnout": 27.0,
+    "poll": 12894
+  }
+}
