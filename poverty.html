@@ -12,20 +12,24 @@
 <div style="height:600px" id="mapid"></div>
 <script src="wards.js"></script>
 <script>
-plot_lsoa(Map, function(feature) {
-  return {
-    onEachFeature: function(feature, layer) {
-      var label = feature.properties.LSOA11NM
-      layer.bindPopup(label)
-      },
-    style: { fillOpacity:  0.01*50,
-             fillColor: "pink",
-             color: "black",
-             weight: 1,
-           }
+load("fuel-poverty.json", function(xhr) {
+  var poverty = JSON.parse(xhr.responseText)
+  plot_lsoa(Map, function(feature) {
+    var lsoa11cd = feature.properties.LSOA11CD
+    var fraction = poverty[lsoa11cd]
+    return {
+      onEachFeature: function(feature, layer) {
+        var label = feature.properties.LSOA11NM + " " + fraction + "%"
+        layer.bindPopup(label)
+        },
+      style: { fillOpacity:  0.01*(10+2*fraction),
+               fillColor: "purple",
+               color: "black",
+               weight: 1,
+             }
 
-  }
-
+    }
+  })
 })
 
 </script>
