@@ -35,3 +35,14 @@ plot_wards = function(map, ward_cb) {
   })
 }
 
+plot_lsoa = function(map, lsoa_cb) {
+  load("E08000019.json", function(xhr) {
+    var g = JSON.parse(xhr.responseText)
+    for(var i in g.features) {
+      var feature = g.features[i]
+      var options = lsoa_cb(feature)
+      var area = L.geoJSON(feature, options)
+      map.addLayer(area)
+    }
+  })
+}
