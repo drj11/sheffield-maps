@@ -1,0 +1,1727 @@
+{
+  "E01008129": {
+    "lsoa": "E01008129",
+    "decile": 6,
+    "name": "Sheffield 023A"
+  },
+  "E01008118": {
+    "lsoa": "E01008118",
+    "decile": 1,
+    "name": "Sheffield 009E"
+  },
+  "E01007874": {
+    "lsoa": "E01007874",
+    "decile": 1,
+    "name": "Sheffield 022A"
+  },
+  "E01007921": {
+    "lsoa": "E01007921",
+    "decile": 9,
+    "name": "Sheffield 068B"
+  },
+  "E01007907": {
+    "lsoa": "E01007907",
+    "decile": 3,
+    "name": "Sheffield 032A"
+  },
+  "E01007902": {
+    "lsoa": "E01007902",
+    "decile": 1,
+    "name": "Sheffield 027B"
+  },
+  "E01007836": {
+    "lsoa": "E01007836",
+    "decile": 7,
+    "name": "Sheffield 062B"
+  },
+  "E01032585": {
+    "lsoa": "E01032585",
+    "decile": 8,
+    "name": "Sheffield 072E"
+  },
+  "E01008069": {
+    "lsoa": "E01008069",
+    "decile": 9,
+    "name": "Sheffield 028C"
+  },
+  "E01007992": {
+    "lsoa": "E01007992",
+    "decile": 7,
+    "name": "Sheffield 021B"
+  },
+  "E01007976": {
+    "lsoa": "E01007976",
+    "decile": 2,
+    "name": "Sheffield 051B"
+  },
+  "E01007847": {
+    "lsoa": "E01007847",
+    "decile": 2,
+    "name": "Sheffield 014A"
+  },
+  "E01007998": {
+    "lsoa": "E01007998",
+    "decile": 2,
+    "name": "Sheffield 025B"
+  },
+  "E01008045": {
+    "lsoa": "E01008045",
+    "decile": 5,
+    "name": "Sheffield 050B"
+  },
+  "E01007978": {
+    "lsoa": "E01007978",
+    "decile": 5,
+    "name": "Sheffield 053A"
+  },
+  "E01007823": {
+    "lsoa": "E01007823",
+    "decile": 5,
+    "name": "Sheffield 069A"
+  },
+  "E01008040": {
+    "lsoa": "E01008040",
+    "decile": 6,
+    "name": "Sheffield 061D"
+  },
+  "E01007890": {
+    "lsoa": "E01007890",
+    "decile": 9,
+    "name": "Sheffield 004C"
+  },
+  "E01008084": {
+    "lsoa": "E01008084",
+    "decile": 1,
+    "name": "Sheffield 070D"
+  },
+  "E01007877": {
+    "lsoa": "E01007877",
+    "decile": 1,
+    "name": "Sheffield 022D"
+  },
+  "E01007875": {
+    "lsoa": "E01007875",
+    "decile": 1,
+    "name": "Sheffield 022B"
+  },
+  "E01007952": {
+    "lsoa": "E01007952",
+    "decile": 10,
+    "name": "Sheffield 033A"
+  },
+  "E01007916": {
+    "lsoa": "E01007916",
+    "decile": 1,
+    "name": "Sheffield 069B"
+  },
+  "E01007868": {
+    "lsoa": "E01007868",
+    "decile": 8,
+    "name": "Sheffield 030C"
+  },
+  "E01007826": {
+    "lsoa": "E01007826",
+    "decile": 10,
+    "name": "Sheffield 066C"
+  },
+  "E01008135": {
+    "lsoa": "E01008135",
+    "decile": 7,
+    "name": "Sheffield 005C"
+  },
+  "E01008034": {
+    "lsoa": "E01008034",
+    "decile": 5,
+    "name": "Sheffield 056D"
+  },
+  "E01007833": {
+    "lsoa": "E01007833",
+    "decile": 6,
+    "name": "Sheffield 064C"
+  },
+  "E01007989": {
+    "lsoa": "E01007989",
+    "decile": 7,
+    "name": "Sheffield 016C"
+  },
+  "E01008000": {
+    "lsoa": "E01008000",
+    "decile": 4,
+    "name": "Sheffield 052A"
+  },
+  "E01033262": {
+    "lsoa": "E01033262",
+    "decile": 5,
+    "name": "Sheffield 073B"
+  },
+  "E01008050": {
+    "lsoa": "E01008050",
+    "decile": 8,
+    "name": "Sheffield 046E"
+  },
+  "E01008007": {
+    "lsoa": "E01008007",
+    "decile": 1,
+    "name": "Sheffield 060A"
+  },
+  "E01007858": {
+    "lsoa": "E01007858",
+    "decile": 8,
+    "name": "Sheffield 038A"
+  },
+  "E01007935": {
+    "lsoa": "E01007935",
+    "decile": 10,
+    "name": "Sheffield 047C"
+  },
+  "E01007861": {
+    "lsoa": "E01007861",
+    "decile": 10,
+    "name": "Sheffield 038B"
+  },
+  "E01007903": {
+    "lsoa": "E01007903",
+    "decile": 3,
+    "name": "Sheffield 018A"
+  },
+  "E01008159": {
+    "lsoa": "E01008159",
+    "decile": 9,
+    "name": "Sheffield 029D"
+  },
+  "E01008042": {
+    "lsoa": "E01008042",
+    "decile": 5,
+    "name": "Sheffield 050A"
+  },
+  "E01008144": {
+    "lsoa": "E01008144",
+    "decile": 5,
+    "name": "Sheffield 001A"
+  },
+  "E01007926": {
+    "lsoa": "E01007926",
+    "decile": 9,
+    "name": "Sheffield 068E"
+  },
+  "E01007899": {
+    "lsoa": "E01007899",
+    "decile": 9,
+    "name": "Sheffield 003E"
+  },
+  "E01007964": {
+    "lsoa": "E01007964",
+    "decile": 3,
+    "name": "Sheffield 049A"
+  },
+  "E01007999": {
+    "lsoa": "E01007999",
+    "decile": 7,
+    "name": "Sheffield 045C"
+  },
+  "E01008099": {
+    "lsoa": "E01008099",
+    "decile": 5,
+    "name": "Sheffield 051E"
+  },
+  "E01008048": {
+    "lsoa": "E01008048",
+    "decile": 8,
+    "name": "Sheffield 046D"
+  },
+  "E01008037": {
+    "lsoa": "E01008037",
+    "decile": 2,
+    "name": "Sheffield 065E"
+  },
+  "E01007842": {
+    "lsoa": "E01007842",
+    "decile": 4,
+    "name": "Sheffield 076D"
+  },
+  "E01008059": {
+    "lsoa": "E01008059",
+    "decile": 1,
+    "name": "Sheffield 010C"
+  },
+  "E01007923": {
+    "lsoa": "E01007923",
+    "decile": 10,
+    "name": "Sheffield 068C"
+  },
+  "E01008123": {
+    "lsoa": "E01008123",
+    "decile": 1,
+    "name": "Sheffield 015E"
+  },
+  "E01008036": {
+    "lsoa": "E01008036",
+    "decile": 9,
+    "name": "Sheffield 063C"
+  },
+  "E01008075": {
+    "lsoa": "E01008075",
+    "decile": 1,
+    "name": "Sheffield 060B"
+  },
+  "E01008104": {
+    "lsoa": "E01008104",
+    "decile": 5,
+    "name": "Sheffield 036E"
+  },
+  "E01008001": {
+    "lsoa": "E01008001",
+    "decile": 4,
+    "name": "Sheffield 052B"
+  },
+  "E01008091": {
+    "lsoa": "E01008091",
+    "decile": 5,
+    "name": "Sheffield 017C"
+  },
+  "E01008122": {
+    "lsoa": "E01008122",
+    "decile": 1,
+    "name": "Sheffield 012E"
+  },
+  "E01008138": {
+    "lsoa": "E01008138",
+    "decile": 3,
+    "name": "Sheffield 006D"
+  },
+  "E01007946": {
+    "lsoa": "E01007946",
+    "decile": 1,
+    "name": "Sheffield 015C"
+  },
+  "E01007997": {
+    "lsoa": "E01007997",
+    "decile": 7,
+    "name": "Sheffield 025A"
+  },
+  "E01007904": {
+    "lsoa": "E01007904",
+    "decile": 1,
+    "name": "Sheffield 018B"
+  },
+  "E01007855": {
+    "lsoa": "E01007855",
+    "decile": 2,
+    "name": "Sheffield 014F"
+  },
+  "E01008089": {
+    "lsoa": "E01008089",
+    "decile": 2,
+    "name": "Sheffield 017B"
+  },
+  "E01007957": {
+    "lsoa": "E01007957",
+    "decile": 10,
+    "name": "Sheffield 041C"
+  },
+  "E01008087": {
+    "lsoa": "E01008087",
+    "decile": 7,
+    "name": "Sheffield 012A"
+  },
+  "E01008058": {
+    "lsoa": "E01008058",
+    "decile": 4,
+    "name": "Sheffield 006C"
+  },
+  "E01008108": {
+    "lsoa": "E01008108",
+    "decile": 3,
+    "name": "Sheffield 042A"
+  },
+  "E01007925": {
+    "lsoa": "E01007925",
+    "decile": 8,
+    "name": "Sheffield 068D"
+  },
+  "E01008030": {
+    "lsoa": "E01008030",
+    "decile": 6,
+    "name": "Sheffield 063A"
+  },
+  "E01008057": {
+    "lsoa": "E01008057",
+    "decile": 2,
+    "name": "Sheffield 007D"
+  },
+  "E01007870": {
+    "lsoa": "E01007870",
+    "decile": 1,
+    "name": "Sheffield 019A"
+  },
+  "E01008052": {
+    "lsoa": "E01008052",
+    "decile": 7,
+    "name": "Sheffield 050F"
+  },
+  "E01008141": {
+    "lsoa": "E01008141",
+    "decile": 8,
+    "name": "Sheffield 005E"
+  },
+  "E01007851": {
+    "lsoa": "E01007851",
+    "decile": 1,
+    "name": "Sheffield 013B"
+  },
+  "E01008098": {
+    "lsoa": "E01008098",
+    "decile": 1,
+    "name": "Sheffield 048A"
+  },
+  "E01008006": {
+    "lsoa": "E01008006",
+    "decile": 6,
+    "name": "Sheffield 054D"
+  },
+  "E01007862": {
+    "lsoa": "E01007862",
+    "decile": 9,
+    "name": "Sheffield 038C"
+  },
+  "E01007839": {
+    "lsoa": "E01007839",
+    "decile": 8,
+    "name": "Sheffield 076B"
+  },
+  "E01007959": {
+    "lsoa": "E01007959",
+    "decile": 10,
+    "name": "Sheffield 041E"
+  },
+  "E01008073": {
+    "lsoa": "E01008073",
+    "decile": 4,
+    "name": "Sheffield 030E"
+  },
+  "E01007853": {
+    "lsoa": "E01007853",
+    "decile": 5,
+    "name": "Sheffield 014D"
+  },
+  "E01008160": {
+    "lsoa": "E01008160",
+    "decile": 6,
+    "name": "Sheffield 024F"
+  },
+  "E01008078": {
+    "lsoa": "E01008078",
+    "decile": 6,
+    "name": "Sheffield 064E"
+  },
+  "E01007963": {
+    "lsoa": "E01007963",
+    "decile": 3,
+    "name": "Sheffield 045A"
+  },
+  "E01008103": {
+    "lsoa": "E01008103",
+    "decile": 1,
+    "name": "Sheffield 048D"
+  },
+  "E01007888": {
+    "lsoa": "E01007888",
+    "decile": 8,
+    "name": "Sheffield 003A"
+  },
+  "E01007893": {
+    "lsoa": "E01007893",
+    "decile": 9,
+    "name": "Sheffield 003C"
+  },
+  "E01008064": {
+    "lsoa": "E01008064",
+    "decile": 9,
+    "name": "Sheffield 028A"
+  },
+  "E01008021": {
+    "lsoa": "E01008021",
+    "decile": 10,
+    "name": "Sheffield 072A"
+  },
+  "E01007939": {
+    "lsoa": "E01007939",
+    "decile": 10,
+    "name": "Sheffield 055F"
+  },
+  "E01008097": {
+    "lsoa": "E01008097",
+    "decile": 1,
+    "name": "Sheffield 043C"
+  },
+  "E01008090": {
+    "lsoa": "E01008090",
+    "decile": 1,
+    "name": "Sheffield 012C"
+  },
+  "E01008051": {
+    "lsoa": "E01008051",
+    "decile": 5,
+    "name": "Sheffield 050E"
+  },
+  "E01008114": {
+    "lsoa": "E01008114",
+    "decile": 1,
+    "name": "Sheffield 074A"
+  },
+  "E01008113": {
+    "lsoa": "E01008113",
+    "decile": 5,
+    "name": "Sheffield 042E"
+  },
+  "E01008109": {
+    "lsoa": "E01008109",
+    "decile": 2,
+    "name": "Sheffield 042B"
+  },
+  "E01007905": {
+    "lsoa": "E01007905",
+    "decile": 1,
+    "name": "Sheffield 027C"
+  },
+  "E01007873": {
+    "lsoa": "E01007873",
+    "decile": 1,
+    "name": "Sheffield 020C"
+  },
+  "E01008011": {
+    "lsoa": "E01008011",
+    "decile": 1,
+    "name": "Sheffield 039A"
+  },
+  "E01008156": {
+    "lsoa": "E01008156",
+    "decile": 9,
+    "name": "Sheffield 024E"
+  },
+  "E01008066": {
+    "lsoa": "E01008066",
+    "decile": 8,
+    "name": "Sheffield 028B"
+  },
+  "E01008063": {
+    "lsoa": "E01008063",
+    "decile": 3,
+    "name": "Sheffield 011B"
+  },
+  "E01007891": {
+    "lsoa": "E01007891",
+    "decile": 8,
+    "name": "Sheffield 004D"
+  },
+  "E01007887": {
+    "lsoa": "E01007887",
+    "decile": 5,
+    "name": "Sheffield 004A"
+  },
+  "E01007918": {
+    "lsoa": "E01007918",
+    "decile": 8,
+    "name": "Sheffield 071C"
+  },
+  "E01008028": {
+    "lsoa": "E01008028",
+    "decile": 3,
+    "name": "Sheffield 056A"
+  },
+  "E01007829": {
+    "lsoa": "E01007829",
+    "decile": 7,
+    "name": "Sheffield 059B"
+  },
+  "E01007825": {
+    "lsoa": "E01007825",
+    "decile": 9,
+    "name": "Sheffield 066B"
+  },
+  "E01008125": {
+    "lsoa": "E01008125",
+    "decile": 2,
+    "name": "Sheffield 009G"
+  },
+  "E01033261": {
+    "lsoa": "E01033261",
+    "decile": 4,
+    "name": "Sheffield 073A"
+  },
+  "E01008044": {
+    "lsoa": "E01008044",
+    "decile": 10,
+    "name": "Sheffield 046B"
+  },
+  "E01007948": {
+    "lsoa": "E01007948",
+    "decile": 1,
+    "name": "Sheffield 013D"
+  },
+  "E01008152": {
+    "lsoa": "E01008152",
+    "decile": 6,
+    "name": "Sheffield 025C"
+  },
+  "E01008100": {
+    "lsoa": "E01008100",
+    "decile": 1,
+    "name": "Sheffield 048B"
+  },
+  "E01007975": {
+    "lsoa": "E01007975",
+    "decile": 2,
+    "name": "Sheffield 051A"
+  },
+  "E01007944": {
+    "lsoa": "E01007944",
+    "decile": 1,
+    "name": "Sheffield 022F"
+  },
+  "E01007860": {
+    "lsoa": "E01007860",
+    "decile": 7,
+    "name": "Sheffield 036B"
+  },
+  "E01007850": {
+    "lsoa": "E01007850",
+    "decile": 5,
+    "name": "Sheffield 014B"
+  },
+  "E01007949": {
+    "lsoa": "E01007949",
+    "decile": 1,
+    "name": "Sheffield 020E"
+  },
+  "E01008083": {
+    "lsoa": "E01008083",
+    "decile": 1,
+    "name": "Sheffield 070C"
+  },
+  "E01008054": {
+    "lsoa": "E01008054",
+    "decile": 1,
+    "name": "Sheffield 007B"
+  },
+  "E01008005": {
+    "lsoa": "E01008005",
+    "decile": 6,
+    "name": "Sheffield 052D"
+  },
+  "E01007953": {
+    "lsoa": "E01007953",
+    "decile": 5,
+    "name": "Sheffield 033B"
+  },
+  "E01008019": {
+    "lsoa": "E01008019",
+    "decile": 4,
+    "name": "Sheffield 065A"
+  },
+  "E01007867": {
+    "lsoa": "E01007867",
+    "decile": 7,
+    "name": "Sheffield 030B"
+  },
+  "E01007971": {
+    "lsoa": "E01007971",
+    "decile": 3,
+    "name": "Sheffield 037C"
+  },
+  "E01008148": {
+    "lsoa": "E01008148",
+    "decile": 3,
+    "name": "Sheffield 001C"
+  },
+  "E01007828": {
+    "lsoa": "E01007828",
+    "decile": 5,
+    "name": "Sheffield 059A"
+  },
+  "E01007919": {
+    "lsoa": "E01007919",
+    "decile": 1,
+    "name": "Sheffield 069C"
+  },
+  "E01007843": {
+    "lsoa": "E01007843",
+    "decile": 3,
+    "name": "Sheffield 062C"
+  },
+  "E01007932": {
+    "lsoa": "E01007932",
+    "decile": 10,
+    "name": "Sheffield 055E"
+  },
+  "E01008132": {
+    "lsoa": "E01008132",
+    "decile": 10,
+    "name": "Sheffield 023D"
+  },
+  "E01007894": {
+    "lsoa": "E01007894",
+    "decile": 6,
+    "name": "Sheffield 004E"
+  },
+  "E01008079": {
+    "lsoa": "E01008079",
+    "decile": 8,
+    "name": "Sheffield 064F"
+  },
+  "E01008022": {
+    "lsoa": "E01008022",
+    "decile": 1,
+    "name": "Sheffield 065C"
+  },
+  "E01007869": {
+    "lsoa": "E01007869",
+    "decile": 1,
+    "name": "Sheffield 020A"
+  },
+  "E01007886": {
+    "lsoa": "E01007886",
+    "decile": 1,
+    "name": "Sheffield 075F"
+  },
+  "E01008027": {
+    "lsoa": "E01008027",
+    "decile": 3,
+    "name": "Sheffield 065D"
+  },
+  "E01007896": {
+    "lsoa": "E01007896",
+    "decile": 10,
+    "name": "Sheffield 004G"
+  },
+  "E01007849": {
+    "lsoa": "E01007849",
+    "decile": 2,
+    "name": "Sheffield 010A"
+  },
+  "E01008068": {
+    "lsoa": "E01008068",
+    "decile": 3,
+    "name": "Sheffield 026B"
+  },
+  "E01007931": {
+    "lsoa": "E01007931",
+    "decile": 10,
+    "name": "Sheffield 047A"
+  },
+  "E01008053": {
+    "lsoa": "E01008053",
+    "decile": 2,
+    "name": "Sheffield 006A"
+  },
+  "E01007990": {
+    "lsoa": "E01007990",
+    "decile": 5,
+    "name": "Sheffield 021A"
+  },
+  "E01007981": {
+    "lsoa": "E01007981",
+    "decile": 6,
+    "name": "Sheffield 053C"
+  },
+  "E01008072": {
+    "lsoa": "E01008072",
+    "decile": 2,
+    "name": "Sheffield 026C"
+  },
+  "E01007947": {
+    "lsoa": "E01007947",
+    "decile": 1,
+    "name": "Sheffield 013C"
+  },
+  "E01008111": {
+    "lsoa": "E01008111",
+    "decile": 5,
+    "name": "Sheffield 040D"
+  },
+  "E01007878": {
+    "lsoa": "E01007878",
+    "decile": 1,
+    "name": "Sheffield 075A"
+  },
+  "E01007951": {
+    "lsoa": "E01007951",
+    "decile": 9,
+    "name": "Sheffield 029A"
+  },
+  "E01008086": {
+    "lsoa": "E01008086",
+    "decile": 1,
+    "name": "Sheffield 009B"
+  },
+  "E01008155": {
+    "lsoa": "E01008155",
+    "decile": 4,
+    "name": "Sheffield 024D"
+  },
+  "E01007908": {
+    "lsoa": "E01007908",
+    "decile": 6,
+    "name": "Sheffield 032B"
+  },
+  "E01007987": {
+    "lsoa": "E01007987",
+    "decile": 8,
+    "name": "Sheffield 016A"
+  },
+  "E01008025": {
+    "lsoa": "E01008025",
+    "decile": 7,
+    "name": "Sheffield 072D"
+  },
+  "E01007988": {
+    "lsoa": "E01007988",
+    "decile": 8,
+    "name": "Sheffield 016B"
+  },
+  "E01007838": {
+    "lsoa": "E01007838",
+    "decile": 6,
+    "name": "Sheffield 076A"
+  },
+  "E01008126": {
+    "lsoa": "E01008126",
+    "decile": 10,
+    "name": "Sheffield 008A"
+  },
+  "E01008102": {
+    "lsoa": "E01008102",
+    "decile": 1,
+    "name": "Sheffield 048C"
+  },
+  "E01007950": {
+    "lsoa": "E01007950",
+    "decile": 2,
+    "name": "Sheffield 015D"
+  },
+  "E01008003": {
+    "lsoa": "E01008003",
+    "decile": 6,
+    "name": "Sheffield 054C"
+  },
+  "E01007940": {
+    "lsoa": "E01007940",
+    "decile": 1,
+    "name": "Sheffield 022E"
+  },
+  "E01008146": {
+    "lsoa": "E01008146",
+    "decile": 10,
+    "name": "Sheffield 002C"
+  },
+  "E01007832": {
+    "lsoa": "E01007832",
+    "decile": 8,
+    "name": "Sheffield 059D"
+  },
+  "E01008031": {
+    "lsoa": "E01008031",
+    "decile": 4,
+    "name": "Sheffield 061A"
+  },
+  "E01007900": {
+    "lsoa": "E01007900",
+    "decile": 3,
+    "name": "Sheffield 003F"
+  },
+  "E01008124": {
+    "lsoa": "E01008124",
+    "decile": 1,
+    "name": "Sheffield 012F"
+  },
+  "E01007996": {
+    "lsoa": "E01007996",
+    "decile": 5,
+    "name": "Sheffield 021E"
+  },
+  "E01008065": {
+    "lsoa": "E01008065",
+    "decile": 1,
+    "name": "Sheffield 026A"
+  },
+  "E01033276": {
+    "lsoa": "E01033276",
+    "decile": 4,
+    "name": "Sheffield 073E"
+  },
+  "E01008136": {
+    "lsoa": "E01008136",
+    "decile": 5,
+    "name": "Sheffield 008D"
+  },
+  "E01033266": {
+    "lsoa": "E01033266",
+    "decile": 3,
+    "name": "Sheffield 074D"
+  },
+  "E01008018": {
+    "lsoa": "E01008018",
+    "decile": 1,
+    "name": "Sheffield 039F"
+  },
+  "E01008140": {
+    "lsoa": "E01008140",
+    "decile": 7,
+    "name": "Sheffield 008E"
+  },
+  "E01008101": {
+    "lsoa": "E01008101",
+    "decile": 2,
+    "name": "Sheffield 043D"
+  },
+  "E01007934": {
+    "lsoa": "E01007934",
+    "decile": 10,
+    "name": "Sheffield 047B"
+  },
+  "E01008016": {
+    "lsoa": "E01008016",
+    "decile": 2,
+    "name": "Sheffield 032F"
+  },
+  "E01007991": {
+    "lsoa": "E01007991",
+    "decile": 3,
+    "name": "Sheffield 016D"
+  },
+  "E01033273": {
+    "lsoa": "E01033273",
+    "decile": 3,
+    "name": "Sheffield 042F"
+  },
+  "E01008082": {
+    "lsoa": "E01008082",
+    "decile": 1,
+    "name": "Sheffield 070B"
+  },
+  "E01007982": {
+    "lsoa": "E01007982",
+    "decile": 2,
+    "name": "Sheffield 054A"
+  },
+  "E01008149": {
+    "lsoa": "E01008149",
+    "decile": 8,
+    "name": "Sheffield 001D"
+  },
+  "E01008117": {
+    "lsoa": "E01008117",
+    "decile": 1,
+    "name": "Sheffield 009D"
+  },
+  "E01007824": {
+    "lsoa": "E01007824",
+    "decile": 10,
+    "name": "Sheffield 066A"
+  },
+  "E01008147": {
+    "lsoa": "E01008147",
+    "decile": 8,
+    "name": "Sheffield 002D"
+  },
+  "E01007859": {
+    "lsoa": "E01007859",
+    "decile": 7,
+    "name": "Sheffield 036A"
+  },
+  "E01007943": {
+    "lsoa": "E01007943",
+    "decile": 1,
+    "name": "Sheffield 019C"
+  },
+  "E01007967": {
+    "lsoa": "E01007967",
+    "decile": 2,
+    "name": "Sheffield 045B"
+  },
+  "E01008128": {
+    "lsoa": "E01008128",
+    "decile": 6,
+    "name": "Sheffield 008C"
+  },
+  "E01008056": {
+    "lsoa": "E01008056",
+    "decile": 2,
+    "name": "Sheffield 006B"
+  },
+  "E01033280": {
+    "lsoa": "E01033280",
+    "decile": 7,
+    "name": "Sheffield 008G"
+  },
+  "E01008131": {
+    "lsoa": "E01008131",
+    "decile": 8,
+    "name": "Sheffield 023C"
+  },
+  "E01008161": {
+    "lsoa": "E01008161",
+    "decile": 4,
+    "name": "Sheffield 026E"
+  },
+  "E01007977": {
+    "lsoa": "E01007977",
+    "decile": 1,
+    "name": "Sheffield 051C"
+  },
+  "E01033264": {
+    "lsoa": "E01033264",
+    "decile": 4,
+    "name": "Sheffield 073D"
+  },
+  "E01007917": {
+    "lsoa": "E01007917",
+    "decile": 6,
+    "name": "Sheffield 071B"
+  },
+  "E01007897": {
+    "lsoa": "E01007897",
+    "decile": 9,
+    "name": "Sheffield 005A"
+  },
+  "E01008105": {
+    "lsoa": "E01008105",
+    "decile": 5,
+    "name": "Sheffield 040A"
+  },
+  "E01007973": {
+    "lsoa": "E01007973",
+    "decile": 7,
+    "name": "Sheffield 037D"
+  },
+  "E01008154": {
+    "lsoa": "E01008154",
+    "decile": 6,
+    "name": "Sheffield 024C"
+  },
+  "E01007958": {
+    "lsoa": "E01007958",
+    "decile": 10,
+    "name": "Sheffield 041D"
+  },
+  "E01008153": {
+    "lsoa": "E01008153",
+    "decile": 5,
+    "name": "Sheffield 024B"
+  },
+  "E01008139": {
+    "lsoa": "E01008139",
+    "decile": 5,
+    "name": "Sheffield 006E"
+  },
+  "E01007930": {
+    "lsoa": "E01007930",
+    "decile": 10,
+    "name": "Sheffield 055D"
+  },
+  "E01007872": {
+    "lsoa": "E01007872",
+    "decile": 2,
+    "name": "Sheffield 020B"
+  },
+  "E01033275": {
+    "lsoa": "E01033275",
+    "decile": 8,
+    "name": "Sheffield 008F"
+  },
+  "E01008119": {
+    "lsoa": "E01008119",
+    "decile": 1,
+    "name": "Sheffield 009F"
+  },
+  "E01007898": {
+    "lsoa": "E01007898",
+    "decile": 9,
+    "name": "Sheffield 003D"
+  },
+  "E01008060": {
+    "lsoa": "E01008060",
+    "decile": 1,
+    "name": "Sheffield 010D"
+  },
+  "E01008150": {
+    "lsoa": "E01008150",
+    "decile": 4,
+    "name": "Sheffield 001E"
+  },
+  "E01007857": {
+    "lsoa": "E01007857",
+    "decile": 1,
+    "name": "Sheffield 010B"
+  },
+  "E01008067": {
+    "lsoa": "E01008067",
+    "decile": 4,
+    "name": "Sheffield 030D"
+  },
+  "E01008095": {
+    "lsoa": "E01008095",
+    "decile": 2,
+    "name": "Sheffield 043A"
+  },
+  "E01008092": {
+    "lsoa": "E01008092",
+    "decile": 1,
+    "name": "Sheffield 012D"
+  },
+  "E01007871": {
+    "lsoa": "E01007871",
+    "decile": 2,
+    "name": "Sheffield 019B"
+  },
+  "E01008088": {
+    "lsoa": "E01008088",
+    "decile": 4,
+    "name": "Sheffield 012B"
+  },
+  "E01007892": {
+    "lsoa": "E01007892",
+    "decile": 1,
+    "name": "Sheffield 003B"
+  },
+  "E01008020": {
+    "lsoa": "E01008020",
+    "decile": 6,
+    "name": "Sheffield 065B"
+  },
+  "E01008061": {
+    "lsoa": "E01008061",
+    "decile": 1,
+    "name": "Sheffield 011A"
+  },
+  "E01007834": {
+    "lsoa": "E01007834",
+    "decile": 8,
+    "name": "Sheffield 066D"
+  },
+  "E01007993": {
+    "lsoa": "E01007993",
+    "decile": 3,
+    "name": "Sheffield 021C"
+  },
+  "E01033265": {
+    "lsoa": "E01033265",
+    "decile": 3,
+    "name": "Sheffield 074C"
+  },
+  "E01008085": {
+    "lsoa": "E01008085",
+    "decile": 1,
+    "name": "Sheffield 009A"
+  },
+  "E01008004": {
+    "lsoa": "E01008004",
+    "decile": 3,
+    "name": "Sheffield 052C"
+  },
+  "E01007835": {
+    "lsoa": "E01007835",
+    "decile": 6,
+    "name": "Sheffield 062A"
+  },
+  "E01008049": {
+    "lsoa": "E01008049",
+    "decile": 7,
+    "name": "Sheffield 050D"
+  },
+  "E01008017": {
+    "lsoa": "E01008017",
+    "decile": 1,
+    "name": "Sheffield 039E"
+  },
+  "E01008055": {
+    "lsoa": "E01008055",
+    "decile": 1,
+    "name": "Sheffield 007C"
+  },
+  "E01008041": {
+    "lsoa": "E01008041",
+    "decile": 9,
+    "name": "Sheffield 063D"
+  },
+  "E01007938": {
+    "lsoa": "E01007938",
+    "decile": 10,
+    "name": "Sheffield 047F"
+  },
+  "E01007848": {
+    "lsoa": "E01007848",
+    "decile": 1,
+    "name": "Sheffield 013A"
+  },
+  "E01008116": {
+    "lsoa": "E01008116",
+    "decile": 1,
+    "name": "Sheffield 009C"
+  },
+  "E01008014": {
+    "lsoa": "E01008014",
+    "decile": 2,
+    "name": "Sheffield 032E"
+  },
+  "E01008080": {
+    "lsoa": "E01008080",
+    "decile": 5,
+    "name": "Sheffield 069D"
+  },
+  "E01007966": {
+    "lsoa": "E01007966",
+    "decile": 3,
+    "name": "Sheffield 049B"
+  },
+  "E01008076": {
+    "lsoa": "E01008076",
+    "decile": 1,
+    "name": "Sheffield 060C"
+  },
+  "E01008158": {
+    "lsoa": "E01008158",
+    "decile": 2,
+    "name": "Sheffield 025D"
+  },
+  "E01007856": {
+    "lsoa": "E01007856",
+    "decile": 1,
+    "name": "Sheffield 007A"
+  },
+  "E01033272": {
+    "lsoa": "E01033272",
+    "decile": 3,
+    "name": "Sheffield 040F"
+  },
+  "E01008029": {
+    "lsoa": "E01008029",
+    "decile": 2,
+    "name": "Sheffield 056B"
+  },
+  "E01008081": {
+    "lsoa": "E01008081",
+    "decile": 2,
+    "name": "Sheffield 070A"
+  },
+  "E01007895": {
+    "lsoa": "E01007895",
+    "decile": 3,
+    "name": "Sheffield 004F"
+  },
+  "E01007983": {
+    "lsoa": "E01007983",
+    "decile": 8,
+    "name": "Sheffield 053D"
+  },
+  "E01033269": {
+    "lsoa": "E01033269",
+    "decile": 1,
+    "name": "Sheffield 022G"
+  },
+  "E01007841": {
+    "lsoa": "E01007841",
+    "decile": 8,
+    "name": "Sheffield 076C"
+  },
+  "E01007883": {
+    "lsoa": "E01007883",
+    "decile": 1,
+    "name": "Sheffield 027A"
+  },
+  "E01007852": {
+    "lsoa": "E01007852",
+    "decile": 4,
+    "name": "Sheffield 014C"
+  },
+  "E01007960": {
+    "lsoa": "E01007960",
+    "decile": 9,
+    "name": "Sheffield 029B"
+  },
+  "E01007915": {
+    "lsoa": "E01007915",
+    "decile": 10,
+    "name": "Sheffield 071A"
+  },
+  "E01008009": {
+    "lsoa": "E01008009",
+    "decile": 1,
+    "name": "Sheffield 045E"
+  },
+  "E01008015": {
+    "lsoa": "E01008015",
+    "decile": 1,
+    "name": "Sheffield 039D"
+  },
+  "E01007985": {
+    "lsoa": "E01007985",
+    "decile": 7,
+    "name": "Sheffield 053E"
+  },
+  "E01007864": {
+    "lsoa": "E01007864",
+    "decile": 8,
+    "name": "Sheffield 036D"
+  },
+  "E01008038": {
+    "lsoa": "E01008038",
+    "decile": 9,
+    "name": "Sheffield 061C"
+  },
+  "E01007927": {
+    "lsoa": "E01007927",
+    "decile": 10,
+    "name": "Sheffield 055A"
+  },
+  "E01007924": {
+    "lsoa": "E01007924",
+    "decile": 6,
+    "name": "Sheffield 071E"
+  },
+  "E01008112": {
+    "lsoa": "E01008112",
+    "decile": 2,
+    "name": "Sheffield 042D"
+  },
+  "E01008077": {
+    "lsoa": "E01008077",
+    "decile": 2,
+    "name": "Sheffield 060D"
+  },
+  "E01007979": {
+    "lsoa": "E01007979",
+    "decile": 1,
+    "name": "Sheffield 051D"
+  },
+  "E01008093": {
+    "lsoa": "E01008093",
+    "decile": 3,
+    "name": "Sheffield 017D"
+  },
+  "E01008134": {
+    "lsoa": "E01008134",
+    "decile": 7,
+    "name": "Sheffield 005B"
+  },
+  "E01007929": {
+    "lsoa": "E01007929",
+    "decile": 10,
+    "name": "Sheffield 055C"
+  },
+  "E01007965": {
+    "lsoa": "E01007965",
+    "decile": 2,
+    "name": "Sheffield 044A"
+  },
+  "E01008008": {
+    "lsoa": "E01008008",
+    "decile": 1,
+    "name": "Sheffield 045D"
+  },
+  "E01033279": {
+    "lsoa": "E01033279",
+    "decile": 2,
+    "name": "Sheffield 076F"
+  },
+  "E01008142": {
+    "lsoa": "E01008142",
+    "decile": 4,
+    "name": "Sheffield 002A"
+  },
+  "E01007854": {
+    "lsoa": "E01007854",
+    "decile": 2,
+    "name": "Sheffield 014E"
+  },
+  "E01008115": {
+    "lsoa": "E01008115",
+    "decile": 4,
+    "name": "Sheffield 074B"
+  },
+  "E01007831": {
+    "lsoa": "E01007831",
+    "decile": 8,
+    "name": "Sheffield 059C"
+  },
+  "E01008002": {
+    "lsoa": "E01008002",
+    "decile": 6,
+    "name": "Sheffield 054B"
+  },
+  "E01007889": {
+    "lsoa": "E01007889",
+    "decile": 9,
+    "name": "Sheffield 004B"
+  },
+  "E01007906": {
+    "lsoa": "E01007906",
+    "decile": 1,
+    "name": "Sheffield 027D"
+  },
+  "E01007933": {
+    "lsoa": "E01007933",
+    "decile": 10,
+    "name": "Sheffield 068F"
+  },
+  "E01007865": {
+    "lsoa": "E01007865",
+    "decile": 10,
+    "name": "Sheffield 038D"
+  },
+  "E01008012": {
+    "lsoa": "E01008012",
+    "decile": 1,
+    "name": "Sheffield 039B"
+  },
+  "E01008023": {
+    "lsoa": "E01008023",
+    "decile": 9,
+    "name": "Sheffield 072B"
+  },
+  "E01008062": {
+    "lsoa": "E01008062",
+    "decile": 1,
+    "name": "Sheffield 013E"
+  },
+  "E01007879": {
+    "lsoa": "E01007879",
+    "decile": 4,
+    "name": "Sheffield 075B"
+  },
+  "E01007954": {
+    "lsoa": "E01007954",
+    "decile": 10,
+    "name": "Sheffield 033C"
+  },
+  "E01007986": {
+    "lsoa": "E01007986",
+    "decile": 8,
+    "name": "Sheffield 059E"
+  },
+  "E01007962": {
+    "lsoa": "E01007962",
+    "decile": 6,
+    "name": "Sheffield 029C"
+  },
+  "E01033274": {
+    "lsoa": "E01033274",
+    "decile": 3,
+    "name": "Sheffield 042G"
+  },
+  "E01008035": {
+    "lsoa": "E01008035",
+    "decile": 8,
+    "name": "Sheffield 063B"
+  },
+  "E01008024": {
+    "lsoa": "E01008024",
+    "decile": 6,
+    "name": "Sheffield 072C"
+  },
+  "E01007846": {
+    "lsoa": "E01007846",
+    "decile": 7,
+    "name": "Sheffield 062D"
+  },
+  "E01033268": {
+    "lsoa": "E01033268",
+    "decile": 3,
+    "name": "Sheffield 075G"
+  },
+  "E01033263": {
+    "lsoa": "E01033263",
+    "decile": 3,
+    "name": "Sheffield 073C"
+  },
+  "E01007994": {
+    "lsoa": "E01007994",
+    "decile": 8,
+    "name": "Sheffield 021D"
+  },
+  "E01008133": {
+    "lsoa": "E01008133",
+    "decile": 7,
+    "name": "Sheffield 023E"
+  },
+  "E01007941": {
+    "lsoa": "E01007941",
+    "decile": 1,
+    "name": "Sheffield 015A"
+  },
+  "E01007912": {
+    "lsoa": "E01007912",
+    "decile": 6,
+    "name": "Sheffield 037B"
+  },
+  "E01008130": {
+    "lsoa": "E01008130",
+    "decile": 8,
+    "name": "Sheffield 023B"
+  },
+  "E01008145": {
+    "lsoa": "E01008145",
+    "decile": 3,
+    "name": "Sheffield 001B"
+  },
+  "E01008013": {
+    "lsoa": "E01008013",
+    "decile": 1,
+    "name": "Sheffield 039C"
+  },
+  "E01007995": {
+    "lsoa": "E01007995",
+    "decile": 4,
+    "name": "Sheffield 017A"
+  },
+  "E01007863": {
+    "lsoa": "E01007863",
+    "decile": 9,
+    "name": "Sheffield 036C"
+  },
+  "E01008107": {
+    "lsoa": "E01008107",
+    "decile": 2,
+    "name": "Sheffield 040C"
+  },
+  "E01008010": {
+    "lsoa": "E01008010",
+    "decile": 2,
+    "name": "Sheffield 052E"
+  },
+  "E01033271": {
+    "lsoa": "E01033271",
+    "decile": 1,
+    "name": "Sheffield 040E"
+  },
+  "E01033267": {
+    "lsoa": "E01033267",
+    "decile": 3,
+    "name": "Sheffield 074E"
+  },
+  "E01007914": {
+    "lsoa": "E01007914",
+    "decile": 1,
+    "name": "Sheffield 018D"
+  },
+  "E01008033": {
+    "lsoa": "E01008033",
+    "decile": 7,
+    "name": "Sheffield 061B"
+  },
+  "E01007901": {
+    "lsoa": "E01007901",
+    "decile": 1,
+    "name": "Sheffield 003G"
+  },
+  "E01007881": {
+    "lsoa": "E01007881",
+    "decile": 2,
+    "name": "Sheffield 075C"
+  },
+  "E01007928": {
+    "lsoa": "E01007928",
+    "decile": 10,
+    "name": "Sheffield 055B"
+  },
+  "E01007969": {
+    "lsoa": "E01007969",
+    "decile": 3,
+    "name": "Sheffield 044B"
+  },
+  "E01007972": {
+    "lsoa": "E01007972",
+    "decile": 7,
+    "name": "Sheffield 044C"
+  },
+  "E01033270": {
+    "lsoa": "E01033270",
+    "decile": 2,
+    "name": "Sheffield 022H"
+  },
+  "E01007945": {
+    "lsoa": "E01007945",
+    "decile": 1,
+    "name": "Sheffield 015B"
+  },
+  "E01008143": {
+    "lsoa": "E01008143",
+    "decile": 6,
+    "name": "Sheffield 002B"
+  },
+  "E01007984": {
+    "lsoa": "E01007984",
+    "decile": 9,
+    "name": "Sheffield 064D"
+  },
+  "E01008094": {
+    "lsoa": "E01008094",
+    "decile": 1,
+    "name": "Sheffield 019D"
+  },
+  "E01007909": {
+    "lsoa": "E01007909",
+    "decile": 5,
+    "name": "Sheffield 032C"
+  },
+  "E01007866": {
+    "lsoa": "E01007866",
+    "decile": 8,
+    "name": "Sheffield 030A"
+  },
+  "E01033278": {
+    "lsoa": "E01033278",
+    "decile": 2,
+    "name": "Sheffield 076E"
+  },
+  "E01007922": {
+    "lsoa": "E01007922",
+    "decile": 10,
+    "name": "Sheffield 071D"
+  },
+  "E01008074": {
+    "lsoa": "E01008074",
+    "decile": 9,
+    "name": "Sheffield 028D"
+  },
+  "E01008157": {
+    "lsoa": "E01008157",
+    "decile": 1,
+    "name": "Sheffield 026D"
+  },
+  "E01007961": {
+    "lsoa": "E01007961",
+    "decile": 10,
+    "name": "Sheffield 033D"
+  },
+  "E01007974": {
+    "lsoa": "E01007974",
+    "decile": 6,
+    "name": "Sheffield 044D"
+  },
+  "E01007910": {
+    "lsoa": "E01007910",
+    "decile": 2,
+    "name": "Sheffield 037A"
+  },
+  "E01007937": {
+    "lsoa": "E01007937",
+    "decile": 10,
+    "name": "Sheffield 047E"
+  },
+  "E01007885": {
+    "lsoa": "E01007885",
+    "decile": 1,
+    "name": "Sheffield 075E"
+  },
+  "E01008043": {
+    "lsoa": "E01008043",
+    "decile": 10,
+    "name": "Sheffield 046A"
+  },
+  "E01033277": {
+    "lsoa": "E01033277",
+    "decile": 1,
+    "name": "Sheffield 011E"
+  },
+  "E01008032": {
+    "lsoa": "E01008032",
+    "decile": 3,
+    "name": "Sheffield 056C"
+  },
+  "E01007970": {
+    "lsoa": "E01007970",
+    "decile": 1,
+    "name": "Sheffield 049D"
+  },
+  "E01008047": {
+    "lsoa": "E01008047",
+    "decile": 9,
+    "name": "Sheffield 046C"
+  },
+  "E01007968": {
+    "lsoa": "E01007968",
+    "decile": 2,
+    "name": "Sheffield 049C"
+  },
+  "E01007913": {
+    "lsoa": "E01007913",
+    "decile": 1,
+    "name": "Sheffield 018C"
+  },
+  "E01007956": {
+    "lsoa": "E01007956",
+    "decile": 9,
+    "name": "Sheffield 041B"
+  },
+  "E01007827": {
+    "lsoa": "E01007827",
+    "decile": 7,
+    "name": "Sheffield 064A"
+  },
+  "E01008096": {
+    "lsoa": "E01008096",
+    "decile": 1,
+    "name": "Sheffield 043B"
+  },
+  "E01007911": {
+    "lsoa": "E01007911",
+    "decile": 7,
+    "name": "Sheffield 032D"
+  },
+  "E01007942": {
+    "lsoa": "E01007942",
+    "decile": 2,
+    "name": "Sheffield 020D"
+  },
+  "E01007830": {
+    "lsoa": "E01007830",
+    "decile": 6,
+    "name": "Sheffield 064B"
+  },
+  "E01008046": {
+    "lsoa": "E01008046",
+    "decile": 6,
+    "name": "Sheffield 050C"
+  },
+  "E01007980": {
+    "lsoa": "E01007980",
+    "decile": 5,
+    "name": "Sheffield 053B"
+  },
+  "E01008151": {
+    "lsoa": "E01008151",
+    "decile": 6,
+    "name": "Sheffield 024A"
+  },
+  "E01008137": {
+    "lsoa": "E01008137",
+    "decile": 9,
+    "name": "Sheffield 005D"
+  },
+  "E01008039": {
+    "lsoa": "E01008039",
+    "decile": 7,
+    "name": "Sheffield 065F"
+  },
+  "E01007882": {
+    "lsoa": "E01007882",
+    "decile": 4,
+    "name": "Sheffield 075D"
+  },
+  "E01007936": {
+    "lsoa": "E01007936",
+    "decile": 10,
+    "name": "Sheffield 047D"
+  },
+  "E01007920": {
+    "lsoa": "E01007920",
+    "decile": 10,
+    "name": "Sheffield 068A"
+  },
+  "E01007955": {
+    "lsoa": "E01007955",
+    "decile": 10,
+    "name": "Sheffield 041A"
+  }
+}
