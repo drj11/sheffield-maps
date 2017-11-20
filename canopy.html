@@ -9,27 +9,27 @@
    crossorigin=""></script>
 </head>
 <body>
-<div style="height:600px" id="mapid"></div>
+<div class="sheffmap" style="height:600px" id="mapid"
+  data-url="canopy.json"
+  data-column="canopy"
+  data-label="canopyLabel"
+  data-style="canopyStyle"
+  ></div>
 <script src="wards.js"></script>
 <script>
-load("canopy.json", function(xhr) {
-  var canopy = JSON.parse(xhr.responseText)
-  plot_wards(Map, function(geojson, descriptor) {
-    return {
-        onEachFeature: function(feature, layer) {
-          var label =
-            descriptor.name + " " + canopy[descriptor.id] + "%"
-          layer.bindPopup(label)
-          },
-        style: { fillOpacity:  0.01*canopy[descriptor.id],
-                 fillColor: "green",
-                 color: "black",
-                 weight: 1,
-                 }
 
-      }
-  })
-})
+canopyLabel = function(v, d, descriptor) {
+  return descriptor.name + " " + v + "%"
+}
+
+canopyStyle = function(v, d, descriptor) {
+  return {
+    fillOpacity: 0.01*v,
+    fillColor: "green"
+  }
+}
+
+mapinate()
 
 </script>
 </body>

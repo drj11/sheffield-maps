@@ -9,28 +9,27 @@
    crossorigin=""></script>
 </head>
 <body>
-<div style="height:600px" id="mapid"></div>
+<div class="sheffmap" style="height:600px" id="mapid"
+  data-url="2015imd.json"
+  data-column="decile"
+  data-label="labelDecile"
+  data-style="styleDecile"
+  ></div>
 <script src="wards.js"></script>
 <script>
-load("2015imd.json", function(xhr) {
-  var imd = JSON.parse(xhr.responseText)
-  plot_lsoa(Map, function(feature) {
-    var lsoa11cd = feature.properties.LSOA11CD
-    var d = imd[lsoa11cd].decile
-    return {
-      onEachFeature: function(feature, layer) {
-        var label = feature.properties.LSOA11NM + " decile " + d
-        layer.bindPopup(label)
-        },
-      style: { fillOpacity:  .09*d,
-               fillColor: "purple",
-               color: "black",
-               weight: 1,
-             }
 
-    }
-  })
-})
+labelDecile = function(v, d, feature) {
+  v = +v
+  var label = d.name + " decile " + v
+  return label
+}
+styleDecile = function(v, d, feature) {
+  return {
+    fillOpacity: (10-+v)*0.09,
+    fillColor: "purple",
+  }
+}
+mapinate()
 
 </script>
 </body>

@@ -9,29 +9,27 @@
    crossorigin=""></script>
 </head>
 <body>
-<div style="height:600px" id="mapid"></div>
+<div class="sheffmap" style="height:600px" id="mapid"
+  data-url="2016turnout.json"
+  data-column="turnout"
+  data-label="labelTurnout"
+  data-style="styleTurnout"
+  ></div>
 <script src="wards.js"></script>
 <script>
-load("2016turnout.json", function(xhr) {
-  var turnout = JSON.parse(xhr.responseText)
-  plot_wards(Map, function(geojson, descriptor) {
-    var gss = descriptor.codes.gss
-    var fraction = turnout[gss].turnout
-    return {
-        onEachFeature: function(feature, layer) {
-          var label =
-            descriptor.name + " " + fraction + "%"
-          layer.bindPopup(label)
-          },
-        style: { fillOpacity:  0.01*fraction,
-                 fillColor: "purple",
-                 color: "black",
-                 weight: 1,
-                 }
 
-      }
-  })
-})
+styleLabel = function(v, d, descriptor) {
+  return descriptor.name + " " + v + "%"
+}
+
+styleTurnout = function(v, d, descriptor) {
+  return {
+    fillOpacity:  0.01*v,
+    fillColor: "purple",
+  }
+}
+
+mapinate()
 
 </script>
 </body>
