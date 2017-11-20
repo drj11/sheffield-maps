@@ -1,10 +1,3 @@
-// var Map = L.map('mapid').setView([53.4, -1.5], 11);
-
-if(0) L.tileLayer(
-'//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-        subdomains: ['a','b','c']
-        }).addTo( Map );
 
 load = function(url, cb) {
   var xhr = new XMLHttpRequest();
