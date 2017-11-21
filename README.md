@@ -1,5 +1,15 @@
 # Maps
 
+See the example maps:
+
+[Index of Multiple Deprivation](imd.html)
+
+[Local Election Turnout](turnout.html)
+
+[Tree Canopy](canopy.html)
+
+## Notes and References
+
 Sheffield City Council
 https://mapit.mysociety.org/area/2537.html
 
