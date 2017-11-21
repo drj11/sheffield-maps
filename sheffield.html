@@ -12,13 +12,8 @@
 <div class="sheffmap" style="height:600px" id="mapid"></div>
 <script src="sheffmap.js"></script>
 <script>
-plot_wards(Map, function(geojson, descriptor) {
-  return {
-      onEachFeature: function(feature, layer) {
-        layer.bindPopup(descriptor.name)
-        }
-    }
-})
+
+mapinate()
 
 </script>
 </body>

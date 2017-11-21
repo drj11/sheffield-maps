@@ -41,11 +41,16 @@ mapinate = function() {
   ).addTo( Map );
 
   var dataURL = mapdiv.dataset.url
-  var dataColumn = mapdiv.dataset.column
+  var dataColumn = mapdiv.dataset.column | ""
   var dataLabel = window[mapdiv.dataset.label]
   var dataStyle = window[mapdiv.dataset.style]
   load(dataURL, function(xhr) {
-    var data = JSON.parse(xhr.responseText)
+    var data = {}
+    try {
+      data = JSON.parse(xhr.responseText)
+    } catch(err) {
+      console.log(err)
+    }
     var key = Object.keys(data)[0]
     var plot
     if(/^E01/.test(key)) {
@@ -56,7 +61,7 @@ mapinate = function() {
       plot = plot_wards
     }
     plot(Map, function(feature, gss) {
-      var d = data[gss]
+      var d = data[gss] | {}
       var v = d[dataColumn]
       var style = { color: "black", weight: 1 }
       if(dataStyle) {
