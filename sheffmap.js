@@ -52,48 +52,33 @@ mapinate = function() {
   load(dataURL, function(xhr) {
     var data = JSON.parse(xhr.responseText)
     var key = Object.keys(data)[0]
+    var plot
     if(/^E01/.test(key)) {
       // LSOA
-      plot_lsoa(Map, function(feature, gss) {
-        var d = data[gss]
-        var v = d[dataColumn]
-        var style = { color: "black", weight: 1 }
-        if(dataStyle) {
-          var extraStyle = dataStyle(v, d, feature)
-          Object.assign(style, extraStyle)
-        }
-
-        return {
-          onEachFeature: function(feature, layer) {
-            if(dataLabel) {
-              var label = dataLabel(v, d, feature)
-              layer.bindPopup(label)
-            }
-          },
-          style: style
-        }
-      })
+      plot = plot_lsoa
     } else {
-      plot_wards(Map, function(feature, gss) {
-        var d = data[gss]
-        var v = d[dataColumn]
-        var style = { color: "black", weight: 1 }
-        if(dataStyle) {
-          var extraStyle = dataStyle(v, d, feature)
-          Object.assign(style, extraStyle)
-        }
-
-        return {
-          onEachFeature: function(feature, layer) {
-            if(dataLabel) {
-              var label = dataLabel(v, d, feature)
-              layer.bindPopup(label)
-            }
-          },
-          style: style
-        }
-      })
+      // wards
+      plot = plot_wards
     }
+    plot(Map, function(feature, gss) {
+      var d = data[gss]
+      var v = d[dataColumn]
+      var style = { color: "black", weight: 1 }
+      if(dataStyle) {
+        var extraStyle = dataStyle(v, d, feature)
+        Object.assign(style, extraStyle)
+      }
+
+      return {
+        onEachFeature: function(feature, layer) {
+          if(dataLabel) {
+            var label = dataLabel(v, d, feature)
+            layer.bindPopup(label)
+          }
+        },
+        style: style
+      }
+    })
   })
 }
 
