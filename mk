@@ -36,3 +36,5 @@ do
 done
 
 curl -O https://raw.githubusercontent.com/drj11/sheffield-local-elections/master/out/2016turnout.csv
+
+curl -O https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/statistical/eng/lsoa_by_lad/E08000019.json
