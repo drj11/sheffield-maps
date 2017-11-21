@@ -9,26 +9,21 @@ load = function(url, cb) {
   xhr.send()
 }
 
-plot_wards = function(map, ward_cb) {
-  load("wards.geojson", function(xhr) {
-    var g = JSON.parse(xhr.responseText)
-    for(var i in g.features) {
-      var feature = g.features[i]
-      var gss = feature.properties.gss
-      var options = ward_cb(feature, gss)
-      var area = L.geoJSON(feature, options)
-      map.addLayer(area)
-    }
-  })
+plot_wards = function(map, cb) {
+  map_features(map, "wards.geojson", {cb: cb, gss_code: "gss"})
 }
 
-plot_lsoa = function(map, lsoa_cb) {
-  load("E08000019.json", function(xhr) {
+plot_lsoa = function(map, cb) {
+  map_features(map, "E08000019.json", {cb: cb, gss_code: "LSOA11CD"})
+}
+
+map_features = function(map, file, o) {
+  load(file, function(xhr) {
     var g = JSON.parse(xhr.responseText)
     for(var i in g.features) {
       var feature = g.features[i]
-      var gss = feature.properties.LSOA11CD
-      var options = lsoa_cb(feature, gss)
+      var gss = feature.properties[o.gss_code]
+      var options = (o.cb)(feature, gss)
       var area = L.geoJSON(feature, options)
       map.addLayer(area)
     }
