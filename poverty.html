@@ -9,28 +9,28 @@
    crossorigin=""></script>
 </head>
 <body>
-<div style="height:600px" id="mapid"></div>
-<script src="wards.js"></script>
+<div class="sheffmap" style="height:600px" id="mapid"
+  data-url="fuel-poverty.json"
+  data-column="fuelpoverty"
+  data-label="fuelPovertyLabel"
+  data-style="fuelPovertyStyle"
+  ></div>
+<script src="sheffmap.js"></script>
 <script>
-load("fuel-poverty.json", function(xhr) {
-  var poverty = JSON.parse(xhr.responseText)
-  plot_lsoa(Map, function(feature) {
-    var lsoa11cd = feature.properties.LSOA11CD
-    var fraction = poverty[lsoa11cd]
-    return {
-      onEachFeature: function(feature, layer) {
-        var label = feature.properties.LSOA11NM + " " + fraction + "%"
-        layer.bindPopup(label)
-        },
-      style: { fillOpacity:  0.01*(10+2*fraction),
-               fillColor: "purple",
-               color: "black",
-               weight: 1,
-             }
 
-    }
-  })
-})
+fuelPovertyLabel = function(v, d, feature) {
+  var label = feature.properties.LSOA11NM + " " + v + "%"
+  return label
+}
+
+fuelPovertyStyle = function(v, d, feature) {
+  return {
+    fillOpacity:  0.01*(10+2*v),
+    fillColor: "purple",
+  }
+}
+
+mapinate()
 
 </script>
 </body>
