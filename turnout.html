@@ -18,8 +18,8 @@
 <script src="sheffmap.js"></script>
 <script>
 
-styleLabel = function(v, d, descriptor) {
-  return descriptor.name + " " + v + "%"
+labelTurnout = function(v, d, feature) {
+  return feature.properties.name + " " + v + "%"
 }
 
 styleTurnout = function(v, d, descriptor) {

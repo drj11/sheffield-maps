@@ -9,22 +9,14 @@ load = function(url, cb) {
   xhr.send()
 }
 
-add_geojson = function(map, url, options) {
-  load(url, function(xhr) {
-    var g = JSON.parse(xhr.responseText)
-    var area = L.geoJSON(g, options)
-    map.addLayer(area)
-    // map.fitBounds(area.getBounds());
-  })
-}
-
 plot_wards = function(map, ward_cb) {
-  load("wards.json", function(xhr) {
-    wards = JSON.parse(xhr.responseText)
-    for(var id in wards) {
-      var ward = wards[id]
-      var options = ward_cb(ward)
-      add_geojson(map, "ward/" + id + ".geojson", options)
+  load("wards.geojson", function(xhr) {
+    var g = JSON.parse(xhr.responseText)
+    for(var i in g.features) {
+      var feature = g.features[i]
+      var options = ward_cb(feature)
+      var area = L.geoJSON(feature, options)
+      map.addLayer(area)
     }
   })
 }
@@ -81,20 +73,20 @@ mapinate = function() {
         }
       })
     } else {
-      plot_wards(Map, function(descriptor) {
-        var gss = descriptor.codes.gss
+      plot_wards(Map, function(feature) {
+        var gss = feature.properties.gss
         var d = data[gss]
         var v = d[dataColumn]
         var style = { color: "black", weight: 1 }
         if(dataStyle) {
-          var extraStyle = dataStyle(v, d, descriptor)
+          var extraStyle = dataStyle(v, d, feature)
           Object.assign(style, extraStyle)
         }
 
         return {
           onEachFeature: function(feature, layer) {
             if(dataLabel) {
-              var label = dataLabel(v, d, descriptor)
+              var label = dataLabel(v, d, feature)
               layer.bindPopup(label)
             }
           },

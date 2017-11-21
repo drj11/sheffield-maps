@@ -18,11 +18,11 @@
 <script src="sheffmap.js"></script>
 <script>
 
-canopyLabel = function(v, d, descriptor) {
-  return descriptor.name + " " + v + "%"
+canopyLabel = function(v, d, feature) {
+  return feature.properties.name + " " + v + "%"
 }
 
-canopyStyle = function(v, d, descriptor) {
+canopyStyle = function(v) {
   return {
     fillOpacity: 0.01*v,
     fillColor: "green"
