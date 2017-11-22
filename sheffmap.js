@@ -1,3 +1,7 @@
+sheffmapURL = document.currentScript.src
+sheffmapURL = sheffmapURL.replace('sheffmap.js', '')
+sheffmapWards = sheffmapURL + "wards.geojson"
+sheffmapLSOA = sheffmapURL + "E08000019.json"
 
 load = function(url, cb) {
   var xhr = new XMLHttpRequest();
@@ -10,11 +14,11 @@ load = function(url, cb) {
 }
 
 plot_wards = function(map, cb) {
-  map_features(map, "wards.geojson", {cb: cb, gss_code: "gss"})
+  map_features(map, sheffmapWards, {cb: cb, gss_code: "gss"})
 }
 
 plot_lsoa = function(map, cb) {
-  map_features(map, "E08000019.json", {cb: cb, gss_code: "LSOA11CD"})
+  map_features(map, sheffmapLSOA, {cb: cb, gss_code: "LSOA11CD"})
 }
 
 map_features = function(map, file, o) {
