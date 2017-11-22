@@ -2,11 +2,11 @@
 
 See the example maps:
 
-[Index of Multiple Deprivation](imd.html)
+[Index of Multiple Deprivation](/sheffield-map/imd)
 
-[Local Election Turnout](turnout.html)
+[Local Election Turnout](/sheffield-map/turnout)
 
-[Tree Canopy](canopy.html)
+[Tree Canopy](/sheffield-map/canopy)
 
 ## Notes and References
 
