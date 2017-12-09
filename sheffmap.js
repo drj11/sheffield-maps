@@ -3,6 +3,49 @@ sheffmapURL = sheffmapURL.replace('sheffmap.js', '')
 sheffmapWards = sheffmapURL + "wards.geojson"
 sheffmapLSOA = sheffmapURL + "E08000019.json"
 
+CSV = {}
+CSV.rows = function (text) {
+  var t = text.replace(/\r\n/g, "\n")
+  var CSV_RE = /[^",\r\n]+(,|\n)|"(?:[^"]|"")*"(,|\n)|(,|\n)/g
+
+  var rows = []
+  var row = []
+  while(1) {
+    var m = CSV_RE.exec(t)
+    if(m == null) {
+      break
+    }
+    if(row.length == 0) {
+      rows.push(row)
+    }
+    var item = m[0]
+    var rowEnd = /\n$/.test(item)
+    item = item.substr(0, item.length-1)
+
+    row.push(item)
+    if(rowEnd) {
+      row = []
+    }
+  }
+  return rows
+}
+
+CSV.parse = function(text) {
+  var rows = CSV.rows(text)
+  var headers = rows[0]
+  var rows = rows.slice(1)
+  var res = []
+  for(var i=0; i<rows.length; i++) {
+    var row = rows[i]
+    var d = {}
+    for(var j=0; j<headers.length; j++) {
+      d[headers[j]] = row[j]
+    }
+    res.push(d)
+  }
+  return res
+}
+
 load = function(url, cb) {
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function() {
@@ -51,7 +94,14 @@ mapinate = function() {
   load(dataURL, function(xhr) {
     var data = {}
     try {
-      data = JSON.parse(xhr.responseText)
+      if(/\.csv$/.test(xhr.responseURL)) {
+        var a = CSV.parse(xhr.responseText)
+        for(var i=0; i<a.length; i++) {
+          data[a[i].gss] = a[i]
+        }
+      } else {
+        data = JSON.parse(xhr.responseText)
+      }
     } catch(err) {
       console.log(err)
     }
