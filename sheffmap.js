@@ -57,27 +57,29 @@ load = function(url, cb) {
 }
 
 plot_wards = function(map, cb) {
-  map_features(map, sheffmapWards, {cb: cb, gss_code: "gss"})
+  map_features(map, sheffmapWards,
+    {eachFeature: cb, gss_code: "gss"})
 }
 
 plot_lsoa = function(map, cb) {
-  map_features(map, sheffmapLSOA, {cb: cb, gss_code: "LSOA11CD"})
+  map_features(map, sheffmapLSOA,
+    {eachFeature: cb, gss_code: "LSOA11CD"})
 }
 
-map_features = function(map, file, o) {
+map_features = function(map, file, option) {
   load(file, function(xhr) {
     var g = JSON.parse(xhr.responseText)
     for(var i in g.features) {
       var feature = g.features[i]
-      var gss = feature.properties[o.gss_code]
-      var options = (o.cb)(feature, gss)
-      var area = L.geoJSON(feature, options)
+      var gss = feature.properties[option.gss_code]
+      var featureOptions = (option.eachFeature)(feature, gss)
+      var area = L.geoJSON(feature, featureOptions)
       map.addLayer(area)
     }
   })
 }
 
-mapinate = function() {
+mapinate = function(then) {
   var mapdiv = document.querySelector("div.sheffmap")
   Map = L.map(mapdiv).setView([53.4, -1.5], 11);
   L.tileLayer(
@@ -135,4 +137,3 @@ mapinate = function() {
     })
   })
 }
-
