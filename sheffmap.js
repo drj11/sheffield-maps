@@ -56,16 +56,23 @@ load = function(url, cb) {
   xhr.send()
 }
 
-plot_wards = function(map, cb) {
+plot_wards = function(map, cb, then) {
   map_features(map, sheffmapWards,
-    {eachFeature: cb, gss_code: "gss"})
+    {eachFeature: cb, gss_code: "gss", then: then})
 }
 
-plot_lsoa = function(map, cb) {
+plot_lsoa = function(map, cb, then) {
   map_features(map, sheffmapLSOA,
-    {eachFeature: cb, gss_code: "LSOA11CD"})
+    {eachFeature: cb, gss_code: "LSOA11CD", then: then})
 }
 
+// This function is called via either plot_wards() or plot_lsoa().
+// map: a Leaflet map
+// file: a URL, the GeoJSON data
+// option: a struct containing options: {
+//   gss_code: the name of the property containing the GSS code
+//   eachFeature: a callback function, called for each GeoJSON feature
+// }
 map_features = function(map, file, option) {
   load(file, function(xhr) {
     var g = JSON.parse(xhr.responseText)
@@ -75,6 +82,9 @@ map_features = function(map, file, option) {
       var featureOptions = (option.eachFeature)(feature, gss)
       var area = L.geoJSON(feature, featureOptions)
       map.addLayer(area)
+    }
+    if(option.then) {
+      (option.then)()
     }
   })
 }
@@ -107,6 +117,13 @@ mapinate = function(then) {
     } catch(err) {
       console.log(err)
     }
+
+
+    // Fix the `then` callback.
+    if(!then) {
+      then = function(){}
+    }
+
     var key = Object.keys(data)[0]
     var plot
     if(/^E01/.test(key)) {
@@ -134,6 +151,8 @@ mapinate = function(then) {
         },
         style: style
       }
-    })
+    },
+    then(Map)
+    )
   })
 }
