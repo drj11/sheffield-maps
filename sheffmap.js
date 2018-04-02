@@ -152,7 +152,9 @@ mapinate = function(then) {
         style: style
       }
     },
-    then(Map)
+    function() {
+      then(Map)
+    }
     )
   })
 }
